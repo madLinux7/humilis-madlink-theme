@@ -1,0 +1,54 @@
+{
+    "slug": "humilis",
+    "name": "Humilis",
+    "preview_gradient": "brand-default",
+    "short": "hu",
+    "contract_version": 1,
+    "version": "0.1.0",
+    "madlink_version": ">=0.1.0 <0.2.0",
+    "author": "madLinux7",
+    "requires_alpine": false,
+    "link_type": "link_button",
+    "avatar_customizable": true,
+    "avatar_breakpoint_class": "hu-avatar",
+    "default_config": {
+        "background": "gradient",
+        "gradient": "brand-default",
+        "custom_gradient": null,
+        "accent_color": "#ffffff",
+        "accent_color_active": false,
+        "avatar": {
+            "border-radius": "50%",
+            "breakpoints": [
+                {
+                    "x": 7680,
+                    "max-width": 168,
+                    "max-height": 168
+                }
+            ]
+        },
+        "link_button": {
+            "gap_x": 0,
+            "gap_y": 14,
+            "form": "rounded",
+            "shadow_type": "drop_right",
+            "type": "filled",
+            "default_color": null,
+            "default_text_color": null,
+            "shadow_color": null
+        },
+        "font": {
+            "head": {
+                "family": "inter",
+                "weight": 700
+            },
+            "body": {
+                "family": "inter",
+                "weight": 600
+            }
+        },
+        "qr_code": "toggle"
+    },
+    "license": "AGPL-3.0-or-later",
+    "repository_url": "https://github.com/madLinux7/humilis-madlink-theme"
+}
