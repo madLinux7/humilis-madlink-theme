@@ -1,0 +1,53 @@
+slug = "humilis"
+name = "Humilis"
+preview_gradient = "brand-default"
+
+repository_url = "https://github.com/madLinux7/humilis-madlink-theme"
+author = "madLinux7"
+license = "AGPL-3.0-or-later"
+
+tags = ["Builtin", "Classic", "Minimalistic", "Buttons"]
+screenshots = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+
+theme_version = 1
+contract_version = 1
+madlink_min_version = "0.1.0"
+
+link_type = "link_button"
+avatar_customizable = true
+avatar_breakpoint_class = "humilis-avatar"
+requires_alpine = false
+
+[summary]
+en = "Compact button theme with a centered profile"
+
+[default_config]
+background = "gradient"
+gradient = "brand-default"
+accent_color = "#ffffff"
+accent_color_active = false
+qr_code = "toggle"
+
+[default_config.avatar]
+border-radius = "50%"
+
+[[default_config.avatar.breakpoints]]
+x = 7680
+max-width = 168
+max-height = 168
+
+[default_config.link_button]
+gap_x = 0
+gap_y = 14
+form = "rounded"
+shadow_type = "drop_right"
+type = "filled"
+
+[default_config.font]
+[default_config.font.head]
+family = "inter"
+weight = 700
+
+[default_config.font.body]
+family = "inter"
+weight = 600
